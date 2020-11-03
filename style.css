@@ -1,0 +1,195 @@
+body {
+    margin: 0px auto ;
+    width:100%;
+   
+}
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #082846;
+  position: fixed;
+}
+nav ul {
+    float : right ;
+}
+
+
+nav ul li{ list-style-type: none;
+    float: left;
+    padding-right: 2.5em; 
+
+  }
+nav ul li a{
+    text-decoration: none;
+    color:#f1e3e3 ;
+}
+a:hover{
+    color:wheat;
+    cursor: pointer;
+}
+.home{
+    background-color: rgb(146, 24, 146);
+    text-align: center;
+    display:table;
+    font-size:28px;
+    width: 100%;
+    height:100vh;
+    color:wheat;
+    margin :auto;
+}
+.in{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .in img{
+    border-radius:50%;
+}
+.about{
+    background-color: rgb(43, 44, 133);
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffff00;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    text-align:justify;
+    display:table;   
+}
+.about .in{
+    padding-top :20px;
+    padding-bottom :20px;
+    display: table-cell;
+}
+
+.education{
+    background-color: rgb(247, 226, 247);
+    display:table;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    color: rgb(4, 24, 112); 
+}
+.education h1 ,.about h1, .academic h1,.hobbies h1 ,.skills h1 , .contact h1{
+    font-size: 45px;      
+}
+.education .in div,.academic .in div,.hobbies .in div ,.skills .in div , .contact .in div{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-right:5px ;
+}
+.education .in{
+    padding: 20px;
+}
+.education .in div img ,.academic .in div img , .hobbies .in div img ,.contact .in div img{
+    width: 100px;
+    height: auto;
+   
+}
+.education .in div h3 h4 p {
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+}
+.academic{
+    background-color: rgb(211, 95, 153);
+    display:table;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #0e032b;
+}
+.academic .in div h3  {
+    font-size :26px;
+   
+}
+.academic .in div p {
+    font-size: 24px;
+
+}
+.hobbies{
+    background-color: rgb(20, 179, 219);
+    display:table;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    color:rgb(15, 5, 63)
+}
+.hobbies .in div img{
+    border-radius:50%;
+}
+.hobbies h3{
+    font-size: 24px;
+}
+.skills{ 
+    background-color: rgb(155, 154, 204);
+    display:table;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    color:rgb(70, 3, 42)
+}
+.skills .in div ul li {
+    list-style-type: none;
+    font-size: 28px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    padding:30px;
+    font-weight: 300;
+    font-style: inherit;
+}
+.contact{
+    background-color:#35031a ;
+    display:table;
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    color:rgb(238, 227, 233)
+}
+.contact .in div img{
+    border-radius:50%;
+    width:80px;
+}
+.contact .in div a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.contact .in div a:hover{
+    color:wheat
+}
+@media (min-width: 320px) and (max-width: 767px){
+    nav{
+        height:80px;  
+    }
+    .home .in img{
+        padding-top:20px
+    }
+    .about .in{
+        font-size: 24px;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+    } 
+    .education .in div,.academic .in div,.hobbies .in div ,.skills .in div , .contact .in div{
+        width:100%;
+    }
+    .education h1 ,.about h1, .academic h1,.hobbies h1 ,.skills h1 , .contact h1{
+        font-size:32px;
+    }
+body{
+    margin:0;
+    padding:0;
+}
+section{
+    width:100%;
+
+}
+skills .in div ul li {
+    padding:20px;
+    font-weight: 300;
+    font-size: 24px;
+}
+}
